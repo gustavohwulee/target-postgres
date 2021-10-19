@@ -1,5 +1,4 @@
 from singer import utils
-import psycopg2
 
 from target_postgres.postgres import MillisLoggingConnection, PostgresTarget
 from target_postgres import target_tools
